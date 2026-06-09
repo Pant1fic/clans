@@ -1,0 +1,26 @@
+name: clans
+version: '${version}'
+
+main: ru.clanplugin.clans.Clans
+api-version: '1.21.11'
+load: POSTWORLD
+depend: [Vault]
+commands:
+  clan:
+    description: Открыть меню клана
+  claninvite:
+    description: Пригласить игрока в клан
+  clandesc:
+    description: Изменить описание клана
+  clancreate:
+    description: Создать клан с названием
+  csethome:
+    description: Установить дом клана
+  cspawn:
+    description: Телепортироваться на дом клана
+  clandisband:
+    description: Удалить клан
+  clankick:
+    description: Выгнать игрока из клана
+  clanrole:
+    description: Изменить роль игрока
